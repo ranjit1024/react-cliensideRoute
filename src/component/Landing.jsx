@@ -12,11 +12,21 @@ export default function Landing(){
             flexDirection:"column",
             justifyContent:"center",
             alignItems:"center",
-            minHeight:"100%"
+            minHeight:"400px",
+            minWidth:"400px"
              
         }}>
-            <h1>Welcome to La La Land</h1>
-            <h4>this is website for la la land user</h4>
+            <p style={{
+                fontSize:"50px",
+                fontWeight:"400",
+                marginBottom:"10px",
+                textShadow: "1px 1px black"
+            }}>Welcome to La La Land</p>
+
+            <p style={{
+                fontSize:'20px',
+                fontWeight:"400"
+            }}>this is website for la la land user</p>
         </div>
        
        <div style={{
@@ -24,22 +34,25 @@ export default function Landing(){
         justifyContent:'center',
         alignItems:"center",
         flexDirection:"column",
-        gap:"20px"
+        gap:"20px",
+        minWidth:"500px"
        }}>
         <input style={{
-            width:"50%",
+            width:"70%",
             height:"20px",
             borderRadius:"5px",
             border:"1px solid black",
-            padding:"10px"
+            padding:"10px",
+            minWidth:"50%"
         }} type="text" name="" id="" placeholder="Enter your Name"/>
        
         <input style={{
-            width:"50%",
+            width:"70%",
             height:"20px",
             borderRadius:"5px",
             border:"1px solid black",
-            padding:"10px"
+            padding:"10px",
+            minWidth:"50%"
         }} type="text" name="" id="" placeholder="Enter your password"/>
        
         <button style={{
