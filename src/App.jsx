@@ -49,13 +49,25 @@ function AppBar(){
             ()=>{
               navigate("/dashboard")
             }
-          }>Dashboard</button></li>
+          } style={{
+            background:"transparent",
+            border:"none",
+            fontSize:"19px",
+            color:"white",
+            
+          }} >Dashboard</button></li>
 
           <li><button   onClick={
             (e)=>{
               navigate("/")
             }
-          }>Landing page</button></li>
+          } style={{
+            background:"transparent",
+            border:"none",
+            fontSize:"19px",
+            color:"white",
+            
+          }}>Landing page</button></li>
         </ul>
       </div>
 
